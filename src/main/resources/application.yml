@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ribbon-consumer
+    name: feign-consumer
 server:
   port: 3433
 eureka:

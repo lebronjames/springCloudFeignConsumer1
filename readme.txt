@@ -24,3 +24,4 @@ public class ConsumerController {
 spring.application.name=feign-consumer
 server.port=3333
 eureka.client.serviceUrl.defaultZone=http://localhost:1111/eureka/
+
