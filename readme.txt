@@ -25,3 +25,7 @@ spring.application.name=feign-consumer
 server.port=3333
 eureka.client.serviceUrl.defaultZone=http://localhost:1111/eureka/
 
+
+
+Feign请求服务地址：
+http://10.5.2.241:3433/add
