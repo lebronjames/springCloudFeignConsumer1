@@ -13,7 +13,7 @@ public class ConsumerController {
 	@Autowired
 	ComputeClient computeClient;
 	
-	@RequestMapping(value="/feignadd",method=RequestMethod.GET)
+	@RequestMapping(value="/add",method=RequestMethod.GET)
 	public Integer add() {
 		return computeClient.add(20, 30);
 	}

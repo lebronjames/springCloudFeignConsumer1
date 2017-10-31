@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient("compute-service")//注解来绑定该接口对应compute-service服务
 public interface ComputeClient {
 
-	@RequestMapping(value="/feignadd",method=RequestMethod.GET)
+	@RequestMapping(value="/add",method=RequestMethod.GET)
 	Integer add(@RequestParam(value="a") Integer a,@RequestParam(value="b") Integer b);
 }
